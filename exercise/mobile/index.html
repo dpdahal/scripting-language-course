@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>My mobile bazar</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <form action="" id="myMobile">
+                <div class="form-group">
+                    <label for="samsung">Samsung Rs: (20000)</label>
+                    <input type="number" id="samsung" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="mi">Mi Rs: (30000)</label>
+                    <input type="number" id="mi" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="oppo">Oppo Rs: (50000)</label>
+                    <input type="number" id="oppo" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="delivery">Delivery</label>
+                    <label><input type="radio" name="delivery" value="home"> Home Rs: (1000)</label>
+                    <label><input type="radio" name="delivery" value="pickup"> Pickup </label>
+                </div>
+                <div class="form-group">
+                    <label for="delivery">Delivery</label>
+                    <label><input type="checkbox" name="packing" value="plastic"> Plastic Rs: (500)</label>
+                    <label><input type="checkbox" name="packing" value="bag"> Bag Rs: (1000) </label>
+                    <label><input type="checkbox" name="packing" value="gift_box"> Gift Rs: (5000) </label>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <select name="location" id="location" class="form-control">
+                        <option value="ktm">KTM (13%) Tax</option>
+                        <option value="ltp">LTP FREE</option>
+                        <option value="bkt">btk FREE</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-success" id="add_record">Add</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6" id="result">
+
+
+        </div>
+    </div>
+</div>
+
+<script src="js/mobile.js"></script>
+</body>
+</html>
